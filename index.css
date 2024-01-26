@@ -1,0 +1,37 @@
+
+body{
+    font-size:18px;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+header {
+    text-align:center;
+}
+
+#techContainer h2{
+    text-align:center;
+}
+
+#Resources h2{
+    text-align:center;
+}
+
+#image1 img {
+
+    width:200px;
+}
+
+#pictureContainer{
+    display:flex;
+}
+
+#pictureContainer #image1{
+    display:inline-flex;
+}
+
+#pictureContainer #ParagraphAboutMe{
+    display:inline-flex;
+    padding-left:10px;
+    padding-right:10px;
+}
