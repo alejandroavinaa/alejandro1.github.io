@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+   $("button").click(function(){     
+    $("img").css("border","5px solid grey");
+    $("header").css("color","orange");
+    $("header").animate({"font-size": 32}, 3000);
+    $("header").animate({"font-size":18},3000);
+    var timer = setTimeout(function() {$("header").css("color", "black")}, 6000);
+  });
+});
+       </script>
     <title>Simple Html CSS</title>
 </head>
 <body>
@@ -14,7 +26,7 @@
     <div id="pictureContainer">
 
      <div id="image1">
-        <img src="pic1.jpg">
+        <img alt="headshot" src="pic1.jpg">
      </div>   
 
 
@@ -56,6 +68,12 @@
             <li> <a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer" >Stack Overflow</a> is another website I have used for documentation or when I need an idea on how to make a certain feature work</li>
         </ul>
 
+
+    </div>
+
+    <div id="theButton">
+  
+     <button>Start Animation</button>  
 
     </div>
 
